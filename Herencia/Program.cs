@@ -16,11 +16,7 @@ vertebrado.esCarnivoro = true;
 if (vertebrado.validar())
 {
     vertebrado.imprimir();
-    Console.WriteLine("Tipo: " + vertebrado.tipo);
-    Console.WriteLine("Tiene Patas: " + vertebrado.tienePatas);
-    Console.WriteLine("Es doméstico: " + vertebrado.esDomestico);
-    Console.WriteLine("Es hervíboro: " + vertebrado.esHerviboro);
-    Console.WriteLine("Es carnívoro: " + vertebrado.esCarnivoro);
+    vertebrado.imprimirVertebrado();
 } else
 {
     Console.WriteLine("Ingrese todos los datos");
